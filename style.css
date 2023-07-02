@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(#eeff00,rgb(255, 166, 0));
+}
+
+.container{
+    width: 40vw;
+    position: absolute;
+    background: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.4);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+  position: relative;
+  margin: 10px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.btn{
+  position: relative;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button{
+  height: 50px;
+  width: 50px;
+  border: 0;
+  outline: 0;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button:nth-child(2){
+  height: 70px;
+  width: 70px;
+  font-size: 2rem;
+  color: orange;
+}
